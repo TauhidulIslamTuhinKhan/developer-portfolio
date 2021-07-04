@@ -59,11 +59,10 @@ section {
     font-size: 18px;
     font-weight: 700;
     padding: 15px 40px;
-    border-radius: 10px;
-    background-color: #ee6938;
+    border-radius: 10px;    
     text-transform: uppercase;
     color: #fff;
-    /* background-image: linear-gradient(); */
+    background-image: linear-gradient(to right, #ff9974, #ff8e69, #ff835f, #ff7856, #ff6b4d);
 }
 .banner {
     background-image: url(../images/top-banner.png);
@@ -93,16 +92,18 @@ section {
     box-shadow: 10px 10px 30px #696969;
 }
 .exprience .border-one {
-    border-left: 5px solid;
-    border-image: linear-gradient(orange, tomato);
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, #ff9974, #ff8e69, #ff835f, #ff7856, #ff6b4d);
     border-image-slice: 1;
 }
 .exprience .border-two {
-    border-left: 5px solid;
-    border-image: linear-gradient(blue, purple);
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, #0001ff, #0076ff, #00abff, #00d6ff, #00fcff);
     border-image-slice: 1;
 }
 
 footer p {
     text-align: center;
 }
+
+
